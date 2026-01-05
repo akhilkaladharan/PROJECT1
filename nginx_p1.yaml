@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nginx_p1:
+    image: akhiakhi1/nginx_p1:latest
+    container_name: docker-web1
+    ports:
+    - "80:80"
+    restart: always
